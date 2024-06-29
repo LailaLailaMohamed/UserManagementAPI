@@ -73,21 +73,21 @@ public ActionResult<User> FindUser([FromQuery] string email = null, [FromQuery] 
 
 - **Flexibility:** Offers adaptability for clients to find users using diverse criteria without requiring distinct endpoints for individual scenarios, illustrating streamlined API usability in the simulated environment.
 
-Key Considerations:
+**Key Considerations:**
 
-Clean Code Principles:
+**Clean Code Principles:**
 
 The code adheres to clean code principles such as readability, maintainability, and simplicity.
 Naming conventions, code structure, and documentation were meticulously followed to enhance code clarity and comprehension.
-Service Architecture:
+**Service Architecture:**
 
 The architecture employs a service-oriented approach to encapsulate business logic and facilitate loose coupling between components.
 Services are designed to perform specific tasks related to user management, ensuring a cohesive and manageable application structure.
-Separation of Concerns:
+**Separation of Concerns:**
 
 While the current project integrates domain and application layers, in a real-life scenario, these layers would be modularized into separate projects.
 This separation ensures that each component focuses on a specific aspect of the application, minimizing dependencies and facilitating independent development and testing.
-Potential Project Structure:
+**Potential Project Structure:**
 
 In a production environment, the solution would encompass separate projects for domains (e.g., UserManagement.Domain) and applications (e.g., UserManagement.API), adhering to best practices for software architecture.
 Each project would have defined responsibilities, promoting maintainability, scalability, and ease of collaboration among development teams.
