@@ -87,6 +87,7 @@ Services are designed to perform specific tasks related to user management, ensu
 
 While the current project integrates domain and application layers, in a real-life scenario, these layers would be modularized into separate projects.
 This separation ensures that each component focuses on a specific aspect of the application, minimizing dependencies and facilitating independent development and testing.
+
 **Potential Project Structure:**
 
 In a production environment, the solution would encompass separate projects for domains (e.g., UserManagement.Domain) and applications (e.g., UserManagement.API), adhering to best practices for software architecture.
