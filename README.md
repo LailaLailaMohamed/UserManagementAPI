@@ -90,5 +90,5 @@ This separation ensures that each component focuses on a specific aspect of the 
 
 **Potential Project Structure:**
 
-In a production environment, the solution would encompass separate projects for domains (e.g., UserManagement.Domain) and applications (e.g., UserManagement.API), adhering to best practices for software architecture.
-Each project would have defined responsibilities, promoting maintainability, scalability, and ease of collaboration among development teams.
+In a production environment, the solution would contains separate projects for domains (e.g., UserManagement.Domain) and applications (e.g., UserManagement.API), adhering to best practices for software architecture.
+Each project would have defined responsibilities, promoting maintainability, scalability.
