@@ -37,7 +37,7 @@ same will be done with SMS service to send mobile notifications.
 
 **Example of Combined Search API (Proposal):**
 
-
+```
 [HttpGet("findUser")]
 public ActionResult<User> FindUser([FromQuery] string email = null, [FromQuery] string password = null)
 {
